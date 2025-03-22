@@ -1,0 +1,220 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.nbr{
+    width: 87.8rem;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.051);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+@font-face {
+    font-family: Samarkan;
+    src: url(SAMAN___.ttf);
+  }
+@font-face {
+    font-family: Awesome;
+    src: url(Awesome.ttf);
+ }
+.logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Samarkan';
+    font-size: 60px;
+    text-align: center;
+    background: linear-gradient(to left,rgb(1, 112, 1),rgb(255, 255, 255),rgb(242, 137, 0));
+    background-clip: text;
+    color: transparent;
+}
+.navopt{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 460px;
+}
+.nvinn{
+    font-size: 22px;
+    font-weight: 130;
+    color: rgb(233, 233, 233);
+}
+.nvinn:hover{
+    color: rgb(155, 155, 155);
+    transition-duration: 230ms;
+}
+.pic{
+    width: 280px;
+    height: 280px;
+    background-image: url("aboutface.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.int{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro1{
+    text-align: center;
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+    margin-top: 20px;
+}
+.intro2{
+    margin-top: 8px;
+    text-align: center;
+    color: white;
+    font-weight: 550;
+    font-size: 50px;
+    font-family: awesome;
+    height: 65px;
+}
+.intro3{
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-size: 24px;
+}
+.introbut{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#b2{
+    margin-left: 10px;
+}
+.introbut:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 300ms;
+}
+.socials{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.in{
+    width: 37px;
+    height: 37px;
+    background-image: url("linkedin.png");
+    background-size: cover;
+}
+.gh{
+    width: 34px;
+    height: 34px;
+    background-image: url("gh.png");
+    background-size: cover;
+    margin-left: 15px;
+}
+.pic2{
+    width: 400px;
+    height: 400px;
+    background-image: url("pic2.jpeg");
+    background-size: cover;
+    border-radius: 10%;
+}
+.abt{
+    height: 550px;
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    /* background-color: rgb(1, 112, 1); */
+}
+.abtouter{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: coral; */
+}
+.abtinner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 400px;
+    width: 700px;
+}
+.exp1{
+    height: 270px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10%;
+    align-items: center;
+}
+.edu1{
+    height: 270px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10%;
+    align-items: center;
+}
+.expicon{
+    width: 50px;
+    height: 50px;
+    background-image: url("exp.png");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.knowmore{
+    font-size: 16px;
+}
+.abtme{
+    font-size: 40px;
+}
+.eduicon{
+    width: 50px;
+    height: 50px;
+    background-image: url("edu.png");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.exp1{
+    font-size: 22px;
+}
+.edu1{
+    font-size: 22px;
+}
+.exp2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.edu2{
+    font-size: 16px;
+    margin-top: 10px;
+}
