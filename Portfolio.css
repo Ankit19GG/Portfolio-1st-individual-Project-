@@ -57,6 +57,7 @@ body{
 }
 .nvinn:hover{
     color: rgb(155, 155, 155);
+    border: none;
     transition-duration: 230ms;
 }
 .pic{
@@ -447,4 +448,81 @@ p{
 #pjpic3{
     background-image: url(pj3.webp);
     background-size: cover;
+}
+.linkedinicon{
+    width: 40px;
+    height: 40px;
+    background-image: url("linkedin.png");
+    background-size: cover;
+    margin-right: 10px;
+}
+.cnt{
+    height: 400px;
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    /* background-color: rgb(1, 112, 1); */
+    
+}
+.get{
+    font-size: 16px;
+    color: #B9B9B9; 
+}
+.cm{
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 80px;
+    width: 450px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 19px;
+}
+.mailicon{
+    width: 40px;
+    height: 40px;
+    background-image: url("mail.png");
+    background-size: cover;
+    margin-right: 10px;
+}
+.mail{
+    /* background-color: orchid; */
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin{
+    /* background-color: purple; */
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid white;
+    transition-duration: 230ms;
+}
+.cpr{
+    text-align: center;
 }
