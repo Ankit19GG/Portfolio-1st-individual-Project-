@@ -374,7 +374,7 @@ p{
     background-image: url(nt.png);
 }
 .pjt{
-    height: 550px;
+    height: 600px;
     width: 75rem;
     display: flex;
     flex-direction: column;
@@ -382,7 +382,7 @@ p{
     text-align: center;
     justify-content: center;
     align-self: center;
-    background-color: rgb(1, 112, 1);
+    /* background-color: rgb(1, 112, 1); */
     margin-top: 100px;
 }
 .browse{
@@ -392,4 +392,59 @@ p{
 .prj{
     font-size: 40px;
     margin-bottom: 35px;
+}
+.prjcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.proj{
+    height: 460px;
+    width: 350px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+.pjpic{
+    height: 280px;
+    width: 300px;
+    background-size: cover;
+    align-self: center;
+    justify-self: center;
+    margin-top: 22.5px;
+    border-radius: 30px;
+}
+.pjbut{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.pjbut:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 300ms;
+}
+#pjpic1{
+    background-image: url(pj1.jpg);
+    background-size: cover;
+}
+.pname{
+    font-size: 28px;
+    font-weight: 530;
+    margin-top: 30px;
+    color: white;
+}
+#pjpic2{
+    background-image: url(pj2.jpg);
+    background-size: cover;
+}
+#pjpic3{
+    background-image: url(pj3.webp);
+    background-size: cover;
 }
