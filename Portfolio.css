@@ -21,6 +21,10 @@ body{
     font-family: Awesome;
     src: url(Awesome.ttf);
  }
+@font-face {
+    font-family: Domine;
+    src: url(Domine-VariableFont_wght.ttf);
+ }
 .logo{
     width: 25%;
     height: 100%;
@@ -147,7 +151,7 @@ body{
     /* background-color: rgb(1, 112, 1); */
 }
 .abtouter{
-    margin-top: 50px;
+    margin-top: 35px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -193,6 +197,8 @@ body{
 }
 .knowmore{
     font-size: 16px;
+    margin-top: 50px;
+    color: #B9B9B9;
 }
 .abtme{
     font-size: 40px;
@@ -217,4 +223,153 @@ body{
 .edu2{
     font-size: 16px;
     margin-top: 10px;
+}
+.exp{
+    height: 550px;
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    /* background-color: rgb(1, 112, 1); */
+    margin-top: 100px;
+}
+.iknow{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.techst{
+    font-size: 16px;
+    color: #B9B9B9;
+}
+.expinner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1{
+    height: 310px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    font-weight: 550;
+    font-family: 'Domine';
+}
+.s{
+    height: 52px;
+    width: 160px;
+    /* background-color: rgb(242, 137, 0); */
+    font-size: 18.72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    margin: 5px 0px 0px 0px;
+    font-weight: 520;
+}
+p{
+    color: white;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    color: #B9B9B9;
+    font-weight: 400;
+}
+.box1container{
+    height: 236px;
+    width: 460.41px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.box2{
+    height: 310px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    font-weight: 550;
+    font-family: 'Domine';
+}
+.box2container{
+    height: 236px;
+    width: 460.41px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.s2{
+    height: 52px;
+    width: 220px;
+    /* background-color: rgb(242, 137, 0); */
+    font-size: 18.72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxicons{
+    height: 45px;
+    width: 45px;
+    /* background-color: red; */
+    align-self: center;
+    background-size: cover;
+}
+.textcontent2{
+    width: 163.05px;
+    height: 52;
+}
+#html{
+    background-image: url(html.png);
+    height: 60px;
+    width: 60px;
+}
+#c{
+    background-image: url(c.png);
+}
+#js{
+    background-image: url(js.png);
+}
+#py{
+    background-image: url(py.png);
+}
+#CSS{
+    background-image: url(css.png);
+    height: 50px;
+}
+#sql{
+    background-image: url(sql.png);
+}
+#kl{
+    background-image: url(kl.png);
+}
+#rjs{
+    background-image: url(rjs.png);
+}
+#njs{
+    background-image: url(njs.png);
+}
+#ntw{
+    background-image: url(nt.png);
 }
