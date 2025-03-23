@@ -373,3 +373,23 @@ p{
 #ntw{
     background-image: url(nt.png);
 }
+.pjt{
+    height: 550px;
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(1, 112, 1);
+    margin-top: 100px;
+}
+.browse{
+    font-size: 16px;
+    color: #B9B9B9; 
+}
+.prj{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
