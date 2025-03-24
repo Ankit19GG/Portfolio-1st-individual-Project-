@@ -235,7 +235,7 @@ body{
     margin-top: 10px;
 }
 .exp{
-    height: 550px;
+    height: 650px;
     width: 75rem;
     display: flex;
     flex-direction: column;
@@ -384,7 +384,7 @@ p{
     background-image: url(nt.png);
 }
 .pjt{
-    height: 600px;
+    height: 650px;
     width: 75rem;
     display: flex;
     flex-direction: column;
@@ -466,7 +466,7 @@ p{
     margin-right: 10px;
 }
 .cnt{
-    height: 400px;
+    height: 500px;
     width: 75rem;
     display: flex;
     flex-direction: column;
@@ -534,4 +534,8 @@ a:hover{
 }
 .cpr{
     text-align: center;
+}
+.nvinn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
 }

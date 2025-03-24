@@ -10,10 +10,10 @@
     <div class="nbr"><!--navigation bar -->
         <div class="logo">Ankit19GG</div>
         <div class="navopt">
-            <a class="nvinn" id="abt" href="#">About</a>
-            <a class="nvinn" id="abt" href="#">Experience</a>
-            <a class="nvinn" id="abt" href="#">Projects</a>
-            <a class="nvinn" id="abt" href="#">Contact</a>
+            <button class="nvinn" id="abt" onclick="abtmeview()">About</button>
+            <button class="nvinn" id="abt" onclick="myexpview()">Experience</button>
+            <button class="nvinn" id="abt" onclick="mypjtview()">Projects</button>
+            <button class="nvinn" id="abt" onclick="cntmeview()">Contact</button>
         </div>
     </div>
     <div class="int"><!--introduction -->
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="abt"><!--about -->
+    <div class="abt" id="abtview"><!--about -->
         <div class="knowmore">Get To Know More</div>
         <div class="abtme">About Me</div>
         <div class="abtouter">
@@ -52,7 +52,7 @@
             </div>
         </div>
     </div>
-    <div class="exp"><!--experiences -->
+    <div class="exp" id="expview"><!--experiences -->
         <div class="techst">Tech Stacks That</div>
         <div class="iknow">I Know</div>
         <div class="expinner">
@@ -115,7 +115,7 @@
             </div>
         </div>
     </div> 
-    <div class="pjt"><!--projects -->
+    <div class="pjt" id="pjtview"><!--projects -->
         <div class="browse">Browse My Recent</div>
         <div class="prj">Projects</div>
         <div class="prjcontainer">
@@ -145,7 +145,7 @@
             </div>
         </div>
     </div>
-    <div class="cnt"><!--contact -->
+    <div class="cnt" id="cntview"><!--contact -->
         <p class="get">Get in Touch</p>
         <p class="cm">Contact Me</p>
         <div class="container">
