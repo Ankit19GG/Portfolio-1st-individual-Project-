@@ -1,9 +1,9 @@
 body{
-    background-image: url(bg1.jpg); /* Replace with your image */
-    background-size: cover;  /* Ensures the image covers the full screen */
-    background-position: center; /* Centers the background */
-    background-attachment: fixed; /* Fixes the background in place */
-    background-repeat: no-repeat; /* Prevents repeating */
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -135,6 +135,9 @@ body{
     height: 37px;
     background-image: url("linkedin.png");
     background-size: cover;
+}
+.a1:hover{
+    border: none;
 }
 .gh{
     width: 34px;
@@ -534,6 +537,7 @@ a:hover{
 }
 .cpr{
     text-align: center;
+    margin-bottom: 50px;
 }
 .nvinn{
     background-color: rgba(0, 0, 0, 0);
